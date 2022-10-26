@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+input {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 3px;
+    padding-left: 1rem;
+    font-family: poppins;
+}
+
+textarea {
+    border: 1px solid var(--color-primary);
+    border-radius: 3px;
+    padding-left: 1rem;
+    font-family: poppins;
+
+
+}
+
+.contact-form-column {
+    padding-right: 2rem;
+}
+
+.contact-options-column {
+    padding-left: 2rem;
+}
+
+
+/* ----- Mobile View ------ */
+
+@media screen and (max-width: 600px) {
+    #contact {
+        padding: 80px 40px;
+    }
+
+    .contact-form-column {
+        min-width: 20rem;
+        padding-right: 0rem;
+    }
+
+    .contact-options-column {
+        padding-top: 40px;
+        padding-left: 0rem;
+    }
+
+}

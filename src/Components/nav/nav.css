@@ -1,0 +1,49 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    position: fixed;
+    left: calc(50% - 20rem);
+    z-index: 2;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0.4rem 1.2rem;
+}
+
+nav a:hover {
+    background-color: var(--color-primary);
+    color: black;
+    border-radius: 5rem;
+}
+
+/* ----- Mobile View ----- */
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 12rem;
+        margin: auto;
+        gap: 1.4rem;
+        position: relative;
+    }
+
+    nav a{
+        text-decoration: none;
+        padding: 0.4rem 0.9rem;
+        margin: 0px auto;
+        font-size: 14px;
+    }
+    .main {
+        width: 16rem;
+        margin: 0px auto;
+        padding: auto;
+
+    }
+}
