@@ -37,7 +37,7 @@ const About = () => {
 
                         </div>
 
-                    <p className='about-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id eaque commodi, quasi corrupti aspernatur reiciendis amet iste eligendi, nisi fuga laborum tempore asperiores a nam unde enim cum facere excepturi.</p>
+                    <p className='about-p'>I am a Front-End Developer with more than 2 years of experience in creating professional and responsive websites with Code using JavaScript and REACT, on WordPress and Shopify. I have done Masters in Computer Science from Pakistan and my ambition is to become one of the finest Web developers in the industry. </p>
                     <a href='#contact' className='btn about-btn'>Contact Me</a>
                 </div>
 
