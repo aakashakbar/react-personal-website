@@ -1,6 +1,7 @@
 .about {
     width: 100%;
-    padding: 6rem 4rem;
+    padding: 4rem 4rem;
+    height: 40rem;
 }
 
 .about-p {
@@ -68,6 +69,7 @@
     .about {
         width: var(--container-width-sm);
         padding: 2rem 0rem;
+        height: 80rem;
 
     }
 

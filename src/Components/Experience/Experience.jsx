@@ -6,6 +6,7 @@ import { IoLogoJavascript } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
 import { FaGitSquare } from 'react-icons/fa'
 import { FaBootstrap } from 'react-icons/fa'
+import skillsImage from '../../assets/skills.jpg'
 
 const Experience = () => {
     return (

@@ -1,3 +1,28 @@
+.experience {
+    position: relative;
+    opacity: 1;
+    
+}
+
+h1, h3, h5, h6 {
+    position: relative;
+}
+
+.experience::before {
+    content: "";
+    background-image: url(../../assets/skills.jpg);
+    opacity: 0.30;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+
+    
+}
+
+
 .experience-details-box {
     padding: 2rem 4rem;
     text-align: center;
@@ -26,6 +51,7 @@
     color: var(--color-primary);
     font-size: 1.7rem;
     transition: all .2s ease-in-out; 
+    position: relative;
 }
 
 .experience-icon:hover {
